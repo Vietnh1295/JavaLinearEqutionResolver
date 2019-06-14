@@ -9,10 +9,12 @@ public class LinearEquationResolver {
         a=scanner.nextFloat();
         System.out.println("Nhap so b= ");
         b=scanner.nextFloat();
+        System.out.print("Nhap so c= ");
+        c=scanner.nextFloat();
         if(a!=0)
         {
-            c=-b/a;
-            System.out.println("c = "+c);
+            float answer=(c-b)/a;
+            System.out.println("Ket qua bang = "+answer);
         }
         else
             {
